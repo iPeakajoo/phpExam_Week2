@@ -1,0 +1,326 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Thai:wght@400;600&display=swap');
+
+*{
+    box-sizing: border-box;
+    font-family: 'Noto Sans Thai', sans-serif;
+}
+body{
+    margin: 0;
+    padding: 0;
+    background: #F7F7F8;
+}
+header{
+    width: 100%;
+    background: #333;
+}
+.flex-head-container{
+    width: 1140px;
+    height: 48px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0px auto;
+    align-items: center;
+}
+nav{
+    width: 100%;
+    background: rgba(245, 245, 247, 0.6);
+}
+.flex-nav-container{
+    width: 1140px;
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 0px auto;
+    align-items: flex-end;
+    padding: 15px;
+}
+.flex-item-menu{
+    width: 90px;
+    text-align: center;
+    font-size: 12px;
+}
+.flex-item-menu img{
+    display: inline-block;
+    margin-bottom: 5px;
+}
+#hero-banner-iphone14{
+    width: 100%;
+    background: #ffffff;
+}
+.flex-banner-iphone14{
+    width: 1140px;
+    height: 558px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    column-gap: 50px;
+    margin: 0px auto;
+    align-items: center;
+}
+.flex-banner-iphone14 img{
+    align-self: flex-end;
+}
+.title-iphone14{
+    text-align: center;
+    padding: 30px;
+}
+.title-iphone14 p{
+    font-size: 17px;
+}
+.title-iphone14 h2{
+    font-size: 24px;
+    font-weight: 600;
+}
+.title-iphone14 h1{
+    font-size: 48px;
+    font-weight: 600;
+    color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+    background-image: linear-gradient(90deg,#2ca2b4,#5598de 24%,#7f87ff 45%,#f65aad 76%,#ec3d43);
+}
+.title-iphone14 h3{
+    font-size: 21px;
+    font-weight: 400;
+}
+.title-iphone14 button{
+    font-size: 17px;
+    font-weight: 400;
+    background: #0071E3;
+    color: white;
+    padding: 0px 20px;
+    border-radius: 20px;
+}
+.title-iphone14 a{
+   color: #0071E3;
+    font-size: 17px;
+    font-weight: 400;
+}
+#hero-banner-iphone14pro{
+    margin-top: 10px;
+    width: 100%;
+    background: #000000;
+}
+.flex-banner-iphone14pro{
+    width: 1140px;
+    height: 476px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    column-gap: 50px;
+    margin: 0px auto;
+    align-items: center;
+}
+.title-iphone14pro h1{
+    font-size: 48px;
+    font-weight: 600;
+    color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+    background-image: linear-gradient(180deg,#ffb6ff,#b344ff);
+}
+.title-iphone14pro{
+    text-align: center;
+    padding: 30px;
+}
+.title-iphone14pro p{
+    font-size: 17px;
+    color: #86868B;
+}
+.title-iphone14pro h2{
+    font-size: 24px;
+    font-weight: 600;
+    color: #F5F5F7;
+}
+.title-iphone14pro h3{
+    font-size: 21px;
+    font-weight: 400;
+    color: #F5F5F7;
+}
+.title-iphone14pro button{
+    font-size: 17px;
+    font-weight: 400;
+    background: #0071E3;
+    color: white;
+    padding: 0px 20px;
+    border-radius: 20px;
+}
+.title-iphone14pro a{
+   color: #0071E3;
+    font-size: 17px;
+    font-weight: 400;
+}
+.flex-banner-iphone14pro img{
+    align-self: flex-end;
+    width: 50%;
+}
+
+#hero-banner-iphoneSE{
+    margin-top: 10px;
+    width: 100%;
+    background: #fbfbfd;
+    overflow: hidden;
+}
+.flex-banner-iphoneSE{
+    width: 1140px;
+    height: 558px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    column-gap: 50px;
+    margin: 0px auto;
+    align-items: center;
+}
+.flex-banner-iphoneSE img{
+    align-self: flex-end;
+}
+.title-iphoneSE{
+    text-align: center;
+    padding: 30px;
+}
+.title-iphoneSE p{
+    font-size: 17px;
+}
+.title-iphoneSE h2{
+    font-size: 24px;
+    font-weight: 600;
+}
+.title-iphoneSE h1{
+    font-size: 48px;
+    font-weight: 600;
+    color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+    background-image: linear-gradient(90deg,#1e3791 0%,#2948b1 40%,#3153c6 55%,#385fda 60%);
+}
+.title-iphoneSE h3{
+    font-size: 21px;
+    font-weight: 400;
+}
+.title-iphoneSE button{
+    font-size: 17px;
+    font-weight: 400;
+    background: #0071E3;
+    color: white;
+    padding: 0px 20px;
+    border-radius: 20px;
+}
+.title-iphoneSE a{
+   color: #0071E3;
+    font-size: 17px;
+    font-weight: 400;
+}
+
+#Product{
+    margin-top: 10px;
+    width: 100%;
+    background: #ffffff;
+}
+#Product>h1{
+    font-size: 48px;
+    text-align: center;
+    padding: 50px;
+    margin-top: 100;
+    font-weight: 600;
+}
+.grid-product{
+    width: 1140px;
+    justify-content: center;
+    column-gap: 50px;
+    margin: 0px auto;
+    align-items: center;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+}
+
+.grid-item-product{
+text-align: center;
+}
+
+.grid-item-product img{
+    display: inline-block;  
+}
+
+.grid-item-product>p{
+    height: 60px;
+    font-size: 20px;
+}
+.grid-item-product h2{
+    font-size: 14px;
+}
+.grid-item-product>h1{
+    font-size: 20px;
+    font-weight: 600;
+}
+.grid-item-product button{
+    font-size: 17px;
+    font-weight: 400;
+    background: #0071E3;
+    color: white;
+    padding: 0px 20px;
+    border-radius: 20px;
+
+}
+.grid-item-product a{
+   color: #0071E3;
+    font-size: 17px;
+    font-weight: 400;
+}
+
+.link-product{
+    color: #0071E3;
+    font-size: 21px;
+    font-weight: 400;
+    text-align: center;
+    padding: 50px;
+}
+
+#service{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    
+}
+.grid-service{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    width: 1140px;
+    justify-content: center;
+    column-gap: 50px;
+    margin: 0px auto;
+    align-items: flex-start;
+    text-align: center;
+}
+.grid-service img{
+    display: inline-block;
+    margin-bottom: 10px;
+}
+
+.grid-service h1{
+    font-size: 21px;
+    font-weight: 600;
+}
+
+.grid-service p{
+    font-size: 21px;
+    font-weight: 400;
+}
+
+.grid-service a{
+    color: #0071E3;
+     font-size: 21px;
+     font-weight: 400;
+ }
+
+ footer{
+    margin: 0 auto;
+    width: 1140px;
+    border-top: 1px solid #313132;
+    font-size: 12px;
+    padding: 30px;
+    text-align: center;
+ }
+ footer img{
+    display: inline-block
+ }
